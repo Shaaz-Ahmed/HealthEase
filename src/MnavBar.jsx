@@ -1,13 +1,47 @@
 import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-const MnavBar = () =>{
-    return(
-        <>
-            <div className='container'>
 
-            </div>
-        </>
-    )
+const MnavBar = () => {
+  return (
+    <>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="#"></a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item active">
+              <a className="nav-link nav-link-spacing" href="#" id='seven'>Home <span className="sr-only">(current)</span></a>
+            </li>
+            <li className="nav-item active">
+              <a className="nav-link nav-link-spacing" href="#">About Us <span className="sr-only">(current)</span></a>
+            </li>
+            <li className="nav-item active">
+              <a className="nav-link nav-link-spacing" href="#">Shop <span className="sr-only">(current)</span></a>
+            </li>
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle nav-link-spacing" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+              </a>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a className="dropdown-item" href="#">Category 1</a>
+                <a className="dropdown-item" href="#">Category 2</a>
+                <div className="dropdown-divider"></div>
+                <a className="dropdown-item" href="#">Category 3</a>
+              </div>
+            </li>
+            <li className="nav-item active">
+              <a className="nav-link" href="#">Contact Us<span className="sr-only"></span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </>
+  );
 };
 
 export default MnavBar;

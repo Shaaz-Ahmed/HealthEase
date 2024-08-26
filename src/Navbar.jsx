@@ -8,7 +8,7 @@ import { FaBeer } from "react-icons/fa";
 const NavBar = () => {
   return (
     <div className='container'>
-      <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: '#ffffff' }}>
+      <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: '#ffffff' , marginLeft:'20px'}}>
         <a className="navbar-brand" href="#"><img src={logo} alt='logo' style={{ height: '40px' }}/></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -48,12 +48,17 @@ const NavBar = () => {
             <li className="nav-item active">
               <a className="nav-link" href="#" id='three'><h6>Login Signup</h6><span className="sr-only"></span></a>
             </li>
+
             <li className="nav-item">
-            <a className="nav-link" href="#" id='six'><i className="fas fa-heart fa-2x" style={{ fontSize: '1.5rem' }}></i></a> {/* Heart icon */}
-              
+               <a className="nav-link" href="#" id='six'><i class="bi bi-people"></i></a> 
+            </li>
+
+
+            <li className="nav-item">
+               <a className="nav-link" href="#" id='six'><i className="fas fa-heart fa-2x" style={{ fontSize: '1.5rem', marginTop:'5px' }}></i></a> {/* Heart icon */}
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" id='two'><i className="fas fa-shopping-cart" style={{ fontSize: '1.5rem' }}></i></a>
+              <a className="nav-link" href="#" id='two'><i className="fas fa-shopping-cart" style={{ fontSize: '1.5rem' , marginTop:'5px'}}></i></a>
              
             </li>
           </ul>

@@ -38,3 +38,10 @@ code {
   margin-left: 20px;
   color: black;
 }
+.nav-link-spacing {
+  margin-right: 45px; /* Adjust as needed */
+}
+
+#seven{
+  margin-left: 250px;
+}
