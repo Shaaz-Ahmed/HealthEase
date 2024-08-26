@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#one{
+  margin-left: 10px;
+}
+#two{
+  margin-left: 5px;
+  color: black;
+}
+#three{
+  margin-left: 100px;
+  border-radius: 60px;
+  width: 120px;
+  margin-top: 5px;
+
+}
+#three:hover{
+  border: 2px solid #42E0D1;
+}
+#four{
+  margin-left: 10px;
+}
+#navbarSupportedContent{
+  margin-left: 40px;
+}
+#six{
+  margin-left: 20px;
+  color: black;
+}

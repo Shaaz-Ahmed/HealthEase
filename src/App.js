@@ -1,9 +1,12 @@
 import React from 'react';
+import Navbar from './Navbar';
+import MnavBar from './MnavBar'
 
 const App = () =>{
   return(
     <>
-      <h1>Hello check cehck</h1>
+      <Navbar />
+      <MnavBar/>
     </>
   )
 }
