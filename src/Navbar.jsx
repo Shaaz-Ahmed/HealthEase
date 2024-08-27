@@ -4,6 +4,11 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import logo from './Assets/logo.svg';
 import './index.css';
 import { FaBeer } from "react-icons/fa";
+import * as Icon from 'react-bootstrap-icons';
+import { FaRegHeart } from "react-icons/fa";
+import { FaCartPlus } from "react-icons/fa";
+import { MdAccountCircle } from "react-icons/md";
+
 
 const NavBar = () => {
   return (
@@ -27,7 +32,6 @@ const NavBar = () => {
                   borderRadius: '50px 0 0 50px',
                   width: '500px',
                   backgroundColor: '#f0f0f0', // Off-white background color
-                  // Optional: Adds a border for better visibility
                 }}
               />
               <span
@@ -36,7 +40,6 @@ const NavBar = () => {
                 style={{
                   borderRadius: '0 50px 50px 0',
                   backgroundColor: '#f0f0f0', // Off-white background color
-                  // Optional: Adds a border for better visibility
                 }}
               >
                 <i className="fas fa-search fa-lg"></i>
@@ -45,25 +48,27 @@ const NavBar = () => {
           </form>
 
           <ul className="navbar-nav ml-auto">
-            {/* <li className="nav-item active">
-             <a className="nav-link" href="#" id='three'><h6>Login Signup</h6><span className="sr-only"></span></a>
-            </li> */}
             <li className="nav-item">
-               <a className="nav-link" href="#" id='six'><i className="bi bi-people"  style={{ fontSize: '1.5rem', marginTop:'5px' }}></i> <h5>Login</h5></a> {/* Heart icon */}
-            </li>
-           
-            <li className="nav-item">
-               <a className="nav-link" href="#" id='six'><i class="bi bi-people"></i></a> 
+              <a className="nav-link" href="#" id='six'>
+                <div className="d-flex align-items-center">
+                <MdAccountCircle style={{ marginRight: '5px' }} size={35} />
+
+                  <h5 className="mb-0">Login</h5>
+                </div>
+              </a>
             </li>
 
+            <li className="nav-item">
+              <a className="nav-link" href="#" id='six'><i class="bi bi-people"></i></a> 
+            </li>
 
             <li className="nav-item">
-               <a className="nav-link" href="#" id='six'><i className="fas fa-heart fa-2x" style={{ fontSize: '1.5rem', marginTop:'5px' }}></i><span id='eight'>Like</span></a> {/* Heart icon */}
+              <a className="nav-link" href="#" id='six'><FaRegHeart size={25}/><span id='eight'>Like</span></a> 
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" id='two'><i className="fas fa-shopping-cart" style={{ fontSize: '1.5rem' , marginTop:'5px'}}> </i><span id='eight'>Cart</span></a>
-             
+              <a className="nav-link" href="#" id='two'><FaCartPlus size={25}/><span id='eight'>Cart</span></a>
             </li>
+            
           </ul>
         </div>
       </nav>

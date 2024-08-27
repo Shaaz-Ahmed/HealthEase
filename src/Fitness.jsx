@@ -3,7 +3,7 @@ import React from 'react';
 const Fitness = () =>{
     return(
         <>
-            <h4 id='cat'>Best Fitness Product</h4>
+            <h4 id='cat'>Best Personal Care Product</h4>
         </>
     )
 };
