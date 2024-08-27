@@ -16,7 +16,7 @@ code {
 }
 #two{
   margin-left: 5px;
-  color: black;
+  color: grey;
 }
 #three{
   margin-left: 100px;
@@ -36,7 +36,7 @@ code {
 }
 #six{
   margin-left: 20px;
-  color: black;
+  color: grey;
 }
 .nav-link-spacing {
   margin-right: 45px; /* Adjust as needed */
@@ -44,4 +44,15 @@ code {
 
 #seven{
   margin-left: 250px;
+  color: grey;
+}
+#eight{
+  margin-left: 10px;
+  font-size: 20px;
+}
+#cat{
+  color: #38acec;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
 }

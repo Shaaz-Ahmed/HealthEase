@@ -8,7 +8,7 @@ import { FaBeer } from "react-icons/fa";
 const NavBar = () => {
   return (
     <div className='container'>
-      <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: '#ffffff' , marginLeft:'20px'}}>
+      <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: '#ffffff'}}>
         <a className="navbar-brand" href="#"><img src={logo} alt='logo' style={{ height: '40px' }}/></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@ const NavBar = () => {
               <input
                 type="search"
                 className="form-control"
-                placeholder="Search Product"
+                placeholder="Search for Product, Brands and More "
                 aria-label="Search"
                 aria-describedby="search-addon" id='four'
                 style={{
@@ -45,20 +45,23 @@ const NavBar = () => {
           </form>
 
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="#" id='three'><h6>Login Signup</h6><span className="sr-only"></span></a>
+            {/* <li className="nav-item active">
+             <a className="nav-link" href="#" id='three'><h6>Login Signup</h6><span className="sr-only"></span></a>
+            </li> */}
+            <li className="nav-item">
+               <a className="nav-link" href="#" id='six'><i className="bi bi-people"  style={{ fontSize: '1.5rem', marginTop:'5px' }}></i> <h5>Login</h5></a> {/* Heart icon */}
             </li>
-
+           
             <li className="nav-item">
                <a className="nav-link" href="#" id='six'><i class="bi bi-people"></i></a> 
             </li>
 
 
             <li className="nav-item">
-               <a className="nav-link" href="#" id='six'><i className="fas fa-heart fa-2x" style={{ fontSize: '1.5rem', marginTop:'5px' }}></i></a> {/* Heart icon */}
+               <a className="nav-link" href="#" id='six'><i className="fas fa-heart fa-2x" style={{ fontSize: '1.5rem', marginTop:'5px' }}></i><span id='eight'>Like</span></a> {/* Heart icon */}
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" id='two'><i className="fas fa-shopping-cart" style={{ fontSize: '1.5rem' , marginTop:'5px'}}></i></a>
+              <a className="nav-link" href="#" id='two'><i className="fas fa-shopping-cart" style={{ fontSize: '1.5rem' , marginTop:'5px'}}> </i><span id='eight'>Cart</span></a>
              
             </li>
           </ul>

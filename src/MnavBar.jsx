@@ -15,17 +15,17 @@ const MnavBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link nav-link-spacing" href="#" id='seven'>Home <span className="sr-only">(current)</span></a>
+              <a className="nav-link nav-link-spacing" href="#" id='seven'><h6>Home </h6><span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link nav-link-spacing" href="#">About Us <span className="sr-only">(current)</span></a>
+              <a className="nav-link nav-link-spacing" href="#"><h6>About Us</h6> <span className="sr-only"></span></a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link nav-link-spacing" href="#">Shop <span className="sr-only">(current)</span></a>
+              <a className="nav-link nav-link-spacing" href="#"><h6>Shop </h6><span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle nav-link-spacing" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categories
+              Categories
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a className="dropdown-item" href="#">Category 1</a>
@@ -35,7 +35,7 @@ const MnavBar = () => {
               </div>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">Contact Us<span className="sr-only"></span></a>
+              <a className="nav-link" href="#"><h6>Contact Us</h6><span className="sr-only"></span></a>
             </li>
           </ul>
         </div>
