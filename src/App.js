@@ -3,7 +3,8 @@ import Navbar from './Navbar';
 import MnavBar from './MnavBar';
 import Banner from './Banner';
 import Categories from './Caterogirs';
-import Fitness from './Fitness';
+import Shopnow from './Shopnow';
+import Feature from './Feature';
 
 const App = () =>{
   return(
@@ -14,7 +15,10 @@ const App = () =>{
       <br/>
       <Categories/>
       <br/>
-      <Fitness />
+      <Shopnow/>
+      <Feature/>
+    
+      
     </>
   )
 }

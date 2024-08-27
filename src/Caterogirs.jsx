@@ -6,7 +6,7 @@ import img4 from './Assets/img4.png';
 import img5 from './Assets/img5.jpg';
 import img6 from './Assets/img6.jpg';
 import img7 from './Assets/img7.jpeg';
-
+import AYURDEVIC from './Assets/AYURDEVIC.png';
 const Categories = () => {
     return (
         <>
@@ -18,7 +18,7 @@ const Categories = () => {
                     {/* Card 1 */}
                     <div className='col-2'>
                         <div className='card' style={{ width: '10rem' }}>
-                            <img src={img1} className='card-img-top' alt="..." />
+                            <img src={AYURDEVIC} className='card-img-top' alt="..." />
                             <div className='card-body'>
                                 <p className='card-text'>
                                 AYURDEVIC

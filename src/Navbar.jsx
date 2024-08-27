@@ -63,10 +63,10 @@ const NavBar = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#" id='six'><FaRegHeart size={25}/><span id='eight'>Like</span></a> 
+              <a className="nav-link" href="#" id='six'><FaRegHeart size={20}/><span id='eight'>Like</span></a> 
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" id='two'><FaCartPlus size={25}/><span id='eight'>Cart</span></a>
+              <a className="nav-link" href="#" id='two'><FaCartPlus size={20}/><span id='eight'>Cart</span></a>
             </li>
             
           </ul>
