@@ -102,3 +102,15 @@ h3 {
   }
 }
 
+#fc{ font-size: 1.75rem;
+  font-weight: 600;
+}
+
+#btn btn-primary:hover{
+  background-color: white;
+  color: blue;
+}
+
+#update{
+
+}
