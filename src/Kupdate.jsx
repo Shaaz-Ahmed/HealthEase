@@ -5,8 +5,8 @@ const Kupdate = () => {
   return (
     <>
       <div
-        className=" d-flex justify-content-center align-items-center"
-        style={{ height: '40vh', backgroundColor: '#007bff', color:'white' }} // Bootstrap's default primary button color
+        className="d-flex flex-column justify-content-center align-items-center text-center"
+        style={{ height: '40vh', backgroundColor: 'rgba(0, 123, 255, 0.7)', color: 'white' }} // Light blue background
       >
         <div className="text-center">
           <h2 id="update">Keep Updated</h2>
