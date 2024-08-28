@@ -7,6 +7,7 @@ import Shopnow from './Shopnow';
 import Fitness from './Fitness';
 import Kupdate from './Kupdate';
 import Footer from './Footer';
+// import Fnav from './Fnav';
 // import Ncards from './Ncards';
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
       <br/>
       <Footer/>
       {/* <Ncards/> */}
+      {/* <Fnav/> */}
      
     </>
   );
