@@ -7,7 +7,7 @@ import Shopnow from './Shopnow';
 import Fitness from './Fitness';
 import Kupdate from './Kupdate';
 import Footer from './Footer';
-import Ncards from './Ncards';
+// import Ncards from './Ncards';
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
       <Kupdate/>
       <br/>
       <Footer/>
-      <Ncards/>
+      {/* <Ncards/> */}
      
     </>
   );
