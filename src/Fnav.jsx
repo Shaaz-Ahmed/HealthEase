@@ -1,5 +1,5 @@
 import React from 'react';
-
+import img from './Assets/logo.svg'
 
 const Fnav = () => {
   return (
@@ -7,8 +7,8 @@ const Fnav = () => {
       {/* NAVBAR */}
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
         <div className="container">
-          <a className="navbar-brand" href="#">Flipkart</a>
-          <img src="images/flipkart-logo-C9E637A758-seeklogo.com.png" width="30" height="30" className="d-inline-block align-top" alt="" />
+          <a className="navbar-brand" href="#"></a>
+          <img src={img} width="70" height="40" className="d-inline-block align-top" alt="" />
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -40,137 +40,7 @@ const Fnav = () => {
           </div>
         </div>
       </nav>
-      
-      {/* CAROUSEL */}
-      <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img className="d-block w-100" src="images/qqq.jpg" alt="First slide" id="c_images" />
           </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src="images/c1.jpg" id="c_images" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src="images/qqqq.jpg" id="c_images" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src="images/c3.jpg" id="c_images" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src="images/c4.png" id="c_images" />
-          </div>
-        </div>
-        <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
-        </a>
-      </div>
-      
-      {/* GRID ITEMS */}
-      <div id="carousel_items">
-        <div className="row">
-          <div className="col-sm-2" id="c_i_1">
-            <h4>Deals Of The Day</h4>
-            <p><i className="far fa-clock"></i>  20 : 25 : 18</p>
-            <button type="button" className="btn btn-primary">View All</button>
-          </div>
-          <div></div>
-          <div className="col-sm-8" id="c_i_2">
-            <div id="carousel_items_grid" className="carousel slide" data-ride="carousel">
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <div className="row">
-                    <div className="col-sm-4">
-                      <div className="card" style={{ width: '18rem' }} id="card1">
-                        <img className="card-img-top" src="images/as114as115-9-andrew-scott-brown-original-imaepy6mxxpugtmx.jpeg" alt="Card image cap" id="g_images" />
-                        <div className="card-body">
-                          <h5 className="card-title">Premium Shoes</h5>
-                          <p className="card-text">Buy these calvin klein shoes and add some style to your daily life at a discounted price</p>
-                          <a href="#" className="btn btn-primary">Buy</a>
-                        </div>
-                      </div>  
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="card" style={{ width: '18rem' }} id="card1">
-                        <img className="card-img-top" src="images/doubledin-with-bluetooth-usb-full-hd-woodman-original-imaemyapjdyhvday.jpeg" alt="Card image cap" id="g_images" />
-                        <div className="card-body">
-                          <h5 className="card-title">Bluetooth usb</h5>
-                          <p className="card-text">Buy this bluetooth USB with best range only on flipkart and at 205 off on MRP</p>
-                          <a href="#" className="btn btn-primary">Buy</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="card" style={{ width: '18rem' }} id="card1">
-                        <img className="card-img-top" src="images/extra-large-wall-stickers-wallpaper-wardrobe-office-table-original-imaf2hgnnyfafzxu.jpeg" alt="Card image cap" id="g_images" />
-                        <div className="card-body">
-                          <h5 className="card-title">Wall Stickers</h5>
-                          <p className="card-text">Decorate your walls with some awesome wallpapers and you can buy them at a discount</p>
-                          <a href="#" className="btn btn-primary">Buy</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="row">
-                    <div className="col-sm-4">
-                      <div className="card" style={{ width: '18rem' }} id="card1">
-                        <img className="card-img-top" src="images/one-size-fits-all-p358bk4p-fastrack-original-imaey5tvyjttfdza.jpeg" alt="Card image cap" id="g_images" />
-                        <div className="card-body">
-                          <h5 className="card-title">Fastrack glasses</h5>
-                          <p className="card-text">Add Some style to yourself with these latest styled fastrack glasses only on Flipkart</p>
-                          <a href="#" className="btn btn-primary">Buy</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="card" style={{ width: '18rem' }} id="card1">
-                        <img className="card-img-top" src="images/xiaomi-redmi-9-power-blazing-blue-original-imafzwgcmsh8gufq.jpeg" alt="Card image cap" id="g_images" />
-                        <div className="card-body">
-                          <h5 className="card-title">Xiaomi phone</h5>
-                          <p className="card-text">Buy latest xiaomi mobile and get exciting offers on your next purchase</p>
-                          <a href="#" className="btn btn-primary">Buy</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="card" style={{ width: '18rem' }} id="card1">
-                        <img className="card-img-top" src="images/redmi-note-10s-navy-blue-128-gb-original-imafz78yufv4jtbx.jpeg" alt="Card image cap" id="g_images" />
-                        <div className="card-body">
-                          <h5 className="card-title">Redmi Note 10</h5>
-                          <p className="card-text">Get a discount on Redmi Note 10 only on Flipkart with a special offer</p>
-                          <a href="#" className="btn btn-primary">Buy</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a className="carousel-control-prev" href="#carousel_items_grid" role="button" data-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="sr-only">Previous</span>
-              </a>
-              <a className="carousel-control-next" href="#carousel_items_grid" role="button" data-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      {/* FOOTER */}
-      <footer className="footer bg-dark text-white text-center">
-        <div className="container">
-          <span>© 2024 Flipkart. All rights reserved.</span>
-        </div>
-      </footer>
-    </div>
   );
 };
 
