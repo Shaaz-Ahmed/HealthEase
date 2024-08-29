@@ -9,6 +9,7 @@ import Kupdate from './Kupdate';
 import Footer from './Footer';
 import Personalc from './Personalc';
 import Personalcards from './Personalcards';
+import Homepathy from './Homepathy';
 
 // import Ncards from './Ncards';
 
@@ -20,6 +21,9 @@ const App = () => {
       <Banner />
       <br />
       <Categories />
+      <Personalcards />
+      <br/>
+      <Homepathy/>
       <Fitness/>
       <br />
       <Shopnow />

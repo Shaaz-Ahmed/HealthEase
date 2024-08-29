@@ -9,7 +9,7 @@ const Fitness = () => {
   return (
     <div className='container'>
       <div className="text-center mb-4">
-        <h4 id="cat" className="mb-4">Best Fitness Product</h4>
+        <h4 id="cat" className="mb-4"></h4>
       </div>
 
       <div className='row'>

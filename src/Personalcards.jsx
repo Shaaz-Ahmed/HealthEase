@@ -8,44 +8,39 @@ const Personalcards = () => {
         <div className='product'>
             <Personalc
                 image={image1}
-                title='This is title'
-                content='description'
+                title='COQ 300mg Soft Gel'
+                content='Mkt: VLLC Personal Care ltd'
                 price='100'
             />
             <Personalc
-                image={image1}
-                title='Another title'
-                content='Another description'
-                price='150'
+               image={image1}
+                title='COQ 300mg Soft Gel'
+                content='Mkt: VLLC Personal Care ltd'
+                price='100'
             />
 
 <Personalc
                 image={image1}
-                title='Another title'
-                content='Another description'
-                price='150'
+                title='COQ 300mg Soft Gel'
+                content='Mkt: VLLC Personal Care ltd'
+                price='100'
             />
 
 <Personalc
-                image={image1}
-                title='Another title'
-                content='Another description'
-                price='150'
+              image={image1}
+                title='COQ 300mg Soft Gel'
+                content='Mkt: VLLC Personal Care ltd'
+                price='100'
             />
 
 <Personalc
-                image={image1}
-                title='Another title'
-                content='Another description'
-                price='150'
+               image={image1}
+                title='COQ 300mg Soft Gel'
+                content='Mkt: VLLC Personal Care ltd'
+                price='100'
             />
 
-<Personalc
-                image={image1}
-                title='Another title'
-                content='Another description'
-                price='150'
-            />
+
             {/* Add more PersonalCard components as needed */}
         </div>
     );
